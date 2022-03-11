@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto-regular', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    background-color: black;
+    height: 100px;
+    color: white;
+
+    justify-content: space-between;
+    
+}
+
+header div{
+    display: flex;
+    align-content: center
+}
+header h1{
+    padding-top: 25px;
+    padding-left: 10px;
+
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-right: 60px;  
+    list-style-type: none;  
+    
+}
+
+header nav{
+    display: flex;
+   justify-content: flex-end;
+}
+
+.card1{
+    
+    height: 350px;
+    width: 490px;
+    background-image: url("../img/delivery.svg");
+    border-radius: 5px;
+}
+.texto-card1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.texto-blanco{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+.texto-rojo{
+    font-weight: 700;
+    font-size: 24px;
+    color: red;
+}
+
+.card2{
+    position:relative;
+    height: 350px;
+    width: 490px;
+    background-color: white;
+    border-radius: 5px;
+}
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E5E5E5;
+}
+.section-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.card2 h2{
+    padding-top: 26px;
+    padding-left: 140px;
+}
+
+.card2 h3 {
+    padding-left: 69px;
+    padding-top: 58px;
+    font-size: 20px;
+    font-weight: 700px;
+    
+}
+
+.card2 ol{
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 16px;
+    padding-left: 57px;
+
+}
+
+.card2 img{
+    position: absolute;
+    top: 132px;
+    left: 325px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.nav-footer{
+
+    padding-top: 19px;
+    list-style-type: none;
+  
+    
+    
+}
+.nav-footer li{
+    padding-bottom: 12px;
+    
+}
+
+footer img{
+    width: 92px;
+    height: 80px;
+    padding-right: 10px;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+    padding-right: 42px;
+}
+.rojo{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+
+}
+.blanco{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.verde{
+    font-size: 20px;
+    font-weight: 700;
+    color: green;
+}
